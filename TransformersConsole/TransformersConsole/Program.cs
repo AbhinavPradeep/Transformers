@@ -6,9 +6,7 @@ namespace TransformersConsole
     {
         static void Main(string[] args)
         {
-            Transformer t = new Transformer();
-            t.Name = "Megatron";
-            t.Transform();
+            
 
             Weapon StarSabre = new Weapon();
             StarSabre.Name = "Starsabre";

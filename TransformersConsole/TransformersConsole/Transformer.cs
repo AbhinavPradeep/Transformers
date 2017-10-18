@@ -4,7 +4,7 @@ using System.Text;
 
 namespace TransformersConsole
 {
-    class Transformer
+    abstract class Transformer
     {
         public string Name;
         public List<Weapon> Weapons;
@@ -15,10 +15,7 @@ namespace TransformersConsole
             Weapons = new List<Weapon>();
         }
 
-        public void Transform()
-        {
-            Console.WriteLine( "{0} is transforming", Name);
-        }
+        public abstract void Transform();
 
         public void ShowWeapons()
         {

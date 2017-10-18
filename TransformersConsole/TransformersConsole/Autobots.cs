@@ -6,5 +6,9 @@ namespace TransformersConsole
 {
     class Autobots : Transformer
     {
+        public override void Transform()
+        {
+            Console.WriteLine("Autobot is transforming");
+        }
     }
 }

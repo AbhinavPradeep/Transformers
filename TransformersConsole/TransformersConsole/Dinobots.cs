@@ -6,6 +6,9 @@ namespace TransformersConsole
 {
     class Dinobots : Transformer
     {
-
+        public override void Transform()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

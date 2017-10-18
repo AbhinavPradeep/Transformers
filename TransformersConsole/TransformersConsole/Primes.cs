@@ -6,5 +6,9 @@ namespace TransformersConsole
 {
     class Primes : Transformer
     {
+        public override void Transform()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
